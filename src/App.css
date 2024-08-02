@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.container {
+    background-color: #f4f0fe;
+}
+
+.patient-list::-webkit-scrollbar {
+    width: 4px;
+  }
+.patient-list::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+.patient-list::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+.patient-list::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 2px;
+    height: 10px;
+  }
+body::-webkit-scrollbar {
+    width: 4px;
+  }
+body::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+body::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 2px;
+    height: 10px;
+  }
+.diag_list::-webkit-scrollbar {
+    width: 4px;
+  }
+.diag_list::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+.diag_list::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+.diag_list::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 2px;
+    height: 10px;
+  }
+
+.card {
+    height: 100%;
+    padding-top: 20px;
+}
+.graph-card::-webkit-scrollbar{
+width: 0px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.title {
+    margin: 0;
+    margin-left: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.chevron {
+    font-size: 18px;
+    padding-bottom: 24px;
+    margin-left: 5px;
+    position: absolute;
+    top: 2px;
+}
+
+.dropdown-button {
+    padding: 0.625rem 1rem;
+    font-size: 0.875rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0.5rem;
+    border: 1px solid #f4f0fe;
+    background-color: #f4f0fe;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 10rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.dropdown-content div {
+    color: black;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+}
+
+.dropdown-content div:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
